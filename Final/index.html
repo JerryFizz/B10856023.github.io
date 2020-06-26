@@ -1,13 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>小雞紙房子線上看</title>
-    <link rel="short icon"  href="https://o.remove.bg/downloads/1d31d9b5-9b55-4a71-804f-fdacc535002c/1683-removebg-preview.png"></link>
-
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQvmq3QMoIZn4ZRPFar3bUly-JDIOqM5czUiBN1jZKcNdk4mQBP&usqp=CAU">
     <style>
         * {
             /*消除網頁邊框*/
@@ -80,7 +77,7 @@
             /*view height是螢幕可是範圍高度的百分比*/
             background-color: black;
             position: absolute;
-            top: 53px;
+            top: 50px;
             left: -100%;
         }
         
@@ -93,9 +90,7 @@
             padding: 10px 20px;
             border-bottom: 1px solid #ffffff;
             font-family:DFKai-sb;
-
         }
-        
         #menu {
             position: absolute;
             /*讓最上方的checkbox隱藏*/
@@ -132,7 +127,6 @@
             padding: 10px 0;
             font-family:'Times New Roman', DFKai-sb;
             margin-top: 30px;
-
         }
 
         
@@ -153,7 +147,6 @@
             font-size: 18px;
             text-align: center;
             font-family:DFKai-sb;
-
         }
         
         .item {
@@ -203,13 +196,11 @@
                 height: auto;
                 top: 0;
                 background-color: transparent;
-                /*透明顏色*/
-                
+                /*透明顏色*/   
             }
             nav a {
                 border-bottom: none;
                 font-family:DFKai-sb;
-
             }
         }
         
@@ -246,6 +237,7 @@
             font-size: 18px;
             text-align: center;
         }
+        
         .video-container {
             position: relative;
             padding-bottom: 56.25%;
@@ -301,7 +293,7 @@
             font-size: 20px;
             font-family:DFKai-sb;
         }
-         td{
+        td{
             background-color: white;
             width:90px;
             height:40px;
@@ -310,205 +302,196 @@
             font-family:DFKai-sb;
         }
         table{
-             border:1px black solid;
+            border:1px black solid;
             text-align:center;
             margin-left:auto;
             margin-right: auto;
-            
-    }
+        }
+        table a{
+            text-decoration: none;
+        }
         @media screen and (max-width: 768px){
             .pic img{
                 position: relative;
                 width:100%;
             }
-            
-        } 
-    </style>
+        }
     </style>
 </head>
-
-<body background="data:image/jpeg;base64,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">
+<body background="https://www.toolnb.com/codefileupdate/39843e717fd195cb827748815c0f9b32.png">
     <header>
-    <input type="checkbox" name="" id="menu">
-
-    <div class="header">
-        <h1 class="logo">
-            <a href="index.html">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQvmq3QMoIZn4ZRPFar3bUly-JDIOqM5czUiBN1jZKcNdk4mQBP&usqp=CAU" width="60" height="50">
-            </a>
-        </h1>
-        
-        <label for="menu" class="btn"> 
-            <span>選單</span>    
-        </label> 
-            <nav>
-                <hr style='background-color:white; height:1.5px; border:none;'>
-                <a href="#1">關於紙房子</a>
-                <a href="#2">人物介紹</a>
-                <a href="#3">紙房子神曲</a>
-                <a href="#4">追劇區</a>
+        <input type="checkbox" name="" id="menu">
+        <div class="header">
+            <h1 class="logo">
+                <a href="index.html">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQvmq3QMoIZn4ZRPFar3bUly-JDIOqM5czUiBN1jZKcNdk4mQBP&usqp=CAU" width="60" height="50">
+                </a>
+            </h1>
+            <label for="menu" class="btn"> 
+                <span>選單</span>    
+            </label> 
+            <nav id="OMG">
+                <hr style='background-color:white; height:1.25px; border:none;'>
+                <a href="#1" onclick="javascript:window.location.reload()">關於紙房子</a>
+                <a href="#2" onclick="javascript:window.location.reload()">人物介紹</a>
+                <a href="#3" onclick="javascript:window.location.reload()">紙房子神曲</a>
+                <a href="#4" onclick="javascript:window.location.reload()">追劇區</a>
             </nav>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
             <script>
                 var bodyClass = document.body.classList,
                     lastScrollY = 100;
                 window.addEventListener('scroll', function(){
-                var st = this.scrollY;
-                if( st < lastScrollY) {
-                    bodyClass.remove('hideUp');
-                }
-                else if(st==100){
-                    bodyClass.remove('hideUp');
-                }
-                else if(st>100){
-                    bodyClass.add('hideUp');
-                }
-                lastScrollY = st;
+                    var st = this.scrollY;
+                    if( st < lastScrollY) {
+                        bodyClass.remove('hideUp');
+                    }
+                    else if(st==100){
+                        bodyClass.remove('hideUp');
+                    }
+                    else if(st>100){
+                        bodyClass.add('hideUp');
+                    }
+                    lastScrollY = st;
                 });
             </script>
-    </div>
+        </div>
     </header>
     <div class="bg">
         <img src=https://news.agentm.tw/wp-content/uploads/La-casa-de-Papel-1280x720.jpg>
     </div>
-
-            <div class="title"><a name="1">
-                <h2 style="color:white ">關於紙房子</h2>
-                <p style="color:white">本劇獲得廣泛好評，讚揚其劇情不落俗套、戲劇演出有人情味、執導方式和嘗試改革西班牙電視圈。義大利反法西斯歌曲《啊朋友再見》因為在本劇反覆出現而於2018年在歐洲成為熱門夏日歌曲。到2018年，本劇已成為Netflix上最多人觀看的非英語影集和有史以來最多人觀看的影集之一，並在南歐地區和拉丁世界產生巨大迴響。</p></a>
+    <div class="title"><a name="1">
+        <h2 style="color:white ">關於紙房子</h2>
+        <p style="color:white">本劇獲得廣泛好評，讚揚其劇情不落俗套、戲劇演出有人情味、執導方式和嘗試改革西班牙電視圈。義大利反法西斯歌曲《啊朋友再見》因為在本劇反覆出現而於2018年在歐洲成為熱門夏日歌曲。到2018年，本劇已成為Netflix上最多人觀看的非英語影集和有史以來最多人觀看的影集之一，並在南歐地區和拉丁世界產生巨大迴響。</p></a>
+    </div>
+    <a name="2">
+        <h1>人物介紹</h1>
+    </a>
+    <center>
+    <div class="item-group">
+        <div class="item">
+            <div class="pic">
+                <img src="下載 2.jpg">
             </div>
-            <a name="2">
-                <h1>人物介紹</h1></a>
-            <center>
-            <div class="item-group">
-                <div class="item">
-                    <div class="pic">
-                        <img src="下載 2.jpg">
-                    </div>
-                    <div class="text">
-                        <h3>Professor教授</h3>
-                        <p>搶案的主導人,有著清晰的頭腦,完整的計畫 </p>
-                       
-                        
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pic">
-                        <img src="下載.jpg">
-                    </div>
-                    <div class="text">
-                        <h3>Tokyo東京</h3>
-                      <p>整部片的身材及顏值擔當，但同時也是最不受控的成員</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pic">
-                        <img src="https://assets.juksy.com/files/articles/99660/800x_100_w-5e918e3878dc6.jpg">
-                    </div>
-                    <div class="text">
-                        <h3>Rio里約</h3>  
-                        <p>出色的駭客一定是一個搶劫團隊所必需的，把跟Tokyo的愛情看得比搶案還重</p>
-                    </div>
-                        </div>
-                <div class="item">
-                    <div class="pic">
-                        <img src="https://im.marieclaire.com.tw/s805c452h100b0/assets/mc/202004/5E99870B9CE8A1587119883.jpeg">
-                    </div>
-                    <div class="text">
-                        <h3>Nairobi奈洛比</h3>
-                       <p>負責印鈔,為了她的目標一心一意只想把鈔票帶出去，不搞男女關係</p>
-                    </div>
-                </div>
-            </div></center>
- 
-<div class="text">
-    <a name="3">
-    <h1 style="color:rgb(0, 0, 0)">紙房子神曲</h1> </a>      
+            <div class="text">
+                 <h3>Professor教授</h3>
+                <p>搶案的主導人,有著清晰的頭腦,完整的計畫 </p>
+            </div>
         </div>
-            <div class="two">               
-                        <div class=video-container>                          
-                            <iframe width="768" height="432" src="https://www.youtube.com/embed/yWWQQGOWbF0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
-                        </div>
-                       
-                    </div>
-                </div>
+        <div class="item">
+            <div class="pic">
+                <img src="下載.jpg">
+            </div>
+            <div class="text">
+                <h3>Tokyo東京</h3>
+                <p>整部片的身材及顏值擔當，但同時也是最不受控的成員</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="pic">
+                <img src="https://assets.juksy.com/files/articles/99660/800x_100_w-5e918e3878dc6.jpg">
+            </div>
+            <div class="text">
+                <h3>Rio里約</h3>  
+                <p>出色的駭客一定是一個搶劫團隊所必需的，把跟Tokyo的愛情看得比搶案還重</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="pic">
+                <img src="https://im.marieclaire.com.tw/s805c452h100b0/assets/mc/202004/5E99870B9CE8A1587119883.jpeg">
+            </div>
+            <div class="text">
+                <h3>Nairobi奈洛比</h3>
+                <p>負責印鈔,為了她的目標一心一意只想把鈔票帶出去，不搞男女關係</p>
             </div>
         </div>
     </div>
-<table>
-    <tr><a name="4">
-        <center>
-        <h2>第一季</h2></center></a>                                             
-        <td style="color:white"><a href="紙房子第1季第1集.html" target="_blank">第一集</a></td>
-        <td style="color:white"><a href="紙房子第1季第2集.html" target="_blank">第二集</a></td>
-        <td style="color:white"><a href="紙房子第1季第3集.html" target="_blank">第三集</a></td>
-        <td style="color:white"><a href="紙房子第1季第4集.html" target="_blank">第四集</a></td>
-        <td style="color:white"><a href="紙房子第1季第5集.html" target="_blank">第五集</a></td>
-        </tr>        
-        
-</table>
-<table><tr>
-    <br>
-        <td style="color:white"><a href="紙房子第1季第6集.html" target="_blank">第六集</a></td>
-        <td style="color:white"><a href="紙房子第1季第7集.html" target="_blank">第七集</a></td>
-        <td style="color:white"><a href="紙房子第1季第8集.html" target="_blank">第八集</a></td>
-        <td style="color:white"><a href="紙房子第1季第9集.html" target="_blank">第九集</a></td>
-        <td style="color:white"><a href="紙房子第1季第10集.html" target="_blank">第十集</a></td>
-        </tr></table>
-        <br>
-        <table>
-        <td style="color:white"><a href="紙房子第1季第11集.html" target="_blank">第十一集</a></td>
-        <td style="color:white"><a href="紙房子第1季第12集.html" target="_blank">第十二集</a></td>
-        <td style="color:white"><a href="紙房子第1季第13集.html" target="_blank">第十三集</a></td>
- </tr></table>      
-
-<table>
-    <tr><center>
-        <h2>第二季</h2></center>                                          
-        <td style="color:white"><a href="紙房子第2季第1集.html" target="_blank">第一集</a></td>
-        <td style="color:white"><a href="紙房子第2季第2集.html" target="_blank">第二集</a></td>
-        <td style="color:white"><a href="紙房子第2季第3集.html" target="_blank">第三集</a></td>
-        <td style="color:white"><a href="紙房子第2季第4集.html" target="_blank">第四集</a></td>
-        <td style="color:white"><a href="紙房子第2季第5集.html" target="_blank">第五集</a></td>
-        <td style="color:white"><a href="紙房子第2季第6集.html" target="_blank">第六集</a></td>
-    </tr>
-</table>
-<table><center>
-    <h2>第三季</h2></center>     
-    <tr>                                    
-    <td style="color:white"><a href="紙房子第3季第1集.html" target="_blank">第一集</a></td>
-    <td style="color:white"><a href="紙房子第3季第2集.html" target="_blank">第二集</a></td>
-    <td style="color:white"><a href="紙房子第3季第3集.html" target="_blank">第三集</a></td>
-    <td style="color:white"><a href="紙房子第3季第4集.html" target="_blank">第四集</a></td>
-    <td style="color:white"><a href="紙房子第3季第5集.html" target="_blank">第五集</a></td>
-    <td style="color:white"><a href="紙房子第3季第6集.html" target="_blank">第六集</a></td>
-    </tr><table>
+    </center>
+    <div class="text">
+        <a name="3">
+        <h1 style="color:rgb(0, 0, 0)">紙房子神曲</h1> </a>      
+    </div>
+    <div class="two">               
+        <div class=video-container>                          
+            <iframe width="768" height="432" src="https://www.youtube.com/embed/yWWQQGOWbF0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+        </div>                     
+    </div>
     <table>
         <tr>
-            <br>
-    <td style="color:white"><a href="紙房子第3季第7集.html" target="_blank">第七集</a></td>
-    <td style="color:white"><a href="紙房子第3季第8集.html" target="_blank">第八集</a></td>
-    </tr>
-</table>
-<table><center>
-    <h2>第四季</h2></center> <tr>                                    
-    <td style="color:white"><a href="紙房子第4季第1集.html" target="_blank">第一集</a></td>
-    <td style="color:white"><a href="紙房子第4季第2集.html" target="_blank">第二集</a></td>
-    <td style="color:white"><a href="紙房子第4季第3集.html" target="_blank">第三集</a></td>
-    <td style="color:white"><a href="紙房子第4季第4集.html" target="_blank">第四集</a></td>
-    <td style="color:white"><a href="紙房子第4季第5集.html" target="_blank">第五集</a></td>
-    <td style="color:white"><a href="紙房子第4季第6集.html" target="_blank">第六集</a></td>
-<tr><table>
-    <br>
-    <tr>
-    <td style="color:white"><a href="紙房子第4季第7集.html" target="_blank">第七集</a></td>
-    <td style="color:white"><a href="紙房子第4季第8集.html" target="_blank">第八集</a></td>
-    <tr>
-   </table>     
+            <a name="4">
+                <center><h2>第一季</h2></center>
+            </a>                                             
+            <td><a href="紙房子第1季第1集.html" target="_blank">第一集</a></td>
+            <td><a href="紙房子第1季第2集.html" target="_blank">第二集</a></td>
+            <td><a href="紙房子第1季第3集.html" target="_blank">第三集</a></td>
+            <td><a href="紙房子第1季第4集.html" target="_blank">第四集</a></td>
+            <td><a href="紙房子第1季第5集.html" target="_blank">第五集</a></td>
+        </tr>
+    </table>
+    <table>
+        <tr><br>
+            <td><a href="紙房子第1季第6集.html" target="_blank">第六集</a></td>
+            <td><a href="紙房子第1季第7集.html" target="_blank">第七集</a></td>
+            <td><a href="紙房子第1季第8集.html" target="_blank">第八集</a></td>
+            <td><a href="紙房子第1季第9集.html" target="_blank">第九集</a></td>
+            <td><a href="紙房子第1季第10集.html" target="_blank">第十集</a></td>
+        </tr>
+    </table>
+    <table>
+        <tr><br>
+            <td><a href="紙房子第1季第11集.html" target="_blank">第十一集</a></td>
+            <td><a href="紙房子第1季第12集.html" target="_blank">第十二集</a></td>
+            <td><a href="紙房子第1季第13集.html" target="_blank">第十三集</a></td>
+        </tr>
+    </table>
+    <table>
+        <tr><br>
+            <center><h2>第二季</h2></center>                                 
+            <td><a href="紙房子第2季第1集.html" target="_blank">第一集</a></td>
+            <td><a href="紙房子第2季第2集.html" target="_blank">第二集</a></td>
+            <td><a href="紙房子第2季第3集.html" target="_blank">第三集</a></td>
+            <td><a href="紙房子第2季第4集.html" target="_blank">第四集</a></td>
+            <td><a href="紙房子第2季第5集.html" target="_blank">第五集</a></td>
+            <td><a href="紙房子第2季第6集.html" target="_blank">第六集</a></td>
+        </tr>
+    </table>
+    <table>
+        <tr><br>
+            <center><h2>第三季</h2></center>                                 
+            <td><a href="紙房子第3季第1集.html" target="_blank">第一集</a></td>
+            <td><a href="紙房子第3季第2集.html" target="_blank">第二集</a></td>
+            <td><a href="紙房子第3季第3集.html" target="_blank">第三集</a></td>
+            <td><a href="紙房子第3季第4集.html" target="_blank">第四集</a></td>
+            <td><a href="紙房子第3季第5集.html" target="_blank">第五集</a></td>
+            <td><a href="紙房子第3季第6集.html" target="_blank">第六集</a></td>
+        </tr>
+    </table>
+    <table>
+        <tr><br>
+            <td><a href="紙房子第3季第7集.html" target="_blank">第七集</a></td>
+            <td><a href="紙房子第3季第8集.html" target="_blank">第八集</a></td>
+        </tr>
+    </table>
+    <table>
+        <tr><br>
+            <center><h2>第四季</h2></center>                                 
+            <td><a href="紙房子第4季第1集.html" target="_blank">第一集</a></td>
+            <td><a href="紙房子第4季第2集.html" target="_blank">第二集</a></td>
+            <td><a href="紙房子第4季第3集.html" target="_blank">第三集</a></td>
+            <td><a href="紙房子第4季第4集.html" target="_blank">第四集</a></td>
+            <td><a href="紙房子第4季第5集.html" target="_blank">第五集</a></td>
+            <td><a href="紙房子第4季第6集.html" target="_blank">第六集</a></td>
+        </tr>
+    </table>
+    <table>
+        <tr><br>
+            <td><a href="紙房子第4季第7集.html" target="_blank">第七集</a></td>
+            <td><a href="紙房子第4季第8集.html" target="_blank">第八集</a></td>
+        </tr>
+    </table>
     <div class="footer">
         &copy; copyright 2020 by Jerry
         <br>盜版下地獄 網站僅供個人作業使用
     </div>
-
 </body>
-
 </html>
